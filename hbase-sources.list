@@ -1,0 +1,4 @@
+ deb http://ppa.launchpad.net/webupd8team/java/ubuntu precise main
+ deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu precise main
+ deb http://archive.cloudera.com/cdh4/debian/squeeze/amd64/cdh squeeze-cdh4 contrib
+ deb-src http://archive.cloudera.com/cdh4/debian/squeeze/amd64/cdh squeeze-cdh4 contrib
