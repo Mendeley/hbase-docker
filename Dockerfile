@@ -19,7 +19,7 @@ RUN hadoop-setup.sh && supervisord && until nc -z 127.0.0.1 50070; do echo "Wait
     && hdfs dfs -mkdir /tmp && hdfs dfs -chmod 777 /tmp \
     && hdfs dfs -mkdir -p /tmp/hadoop-mapred/mapred && hdfs dfs -chmod 777 /tmp/hadoop-mapred/mapred \
     && hdfs dfs -mkdir /user && hdfs dfs -chmod 777 /user \
-    && hdfs dfs -chmod 777
+    && hdfs dfs -chmod 777 /
 ADD hbase-site.xml /etc/hbase/conf.dist/hbase-site.xml
 ADD core-site.xml /etc/hadoop/conf/core-site.xml
 ADD mapred-site.xml /etc/hadoop/conf/mapred-site.xml
