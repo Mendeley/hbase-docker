@@ -1,0 +1,4 @@
+ deb http://ppa.launchpad.net/webupd8team/java/ubuntu precise main
+ deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu precise main
+ deb http://archive.cloudera.com/cdh5/debian/wheezy/amd64/cdh wheezy-cdh5 contrib
+ deb-src http://archive.cloudera.com/cdh5/debian/wheezy/amd64/cdh wheezy-cdh5 contrib
